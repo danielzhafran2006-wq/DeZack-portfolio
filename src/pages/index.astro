@@ -1,0 +1,25 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro';
+import Navbar from '../components/Navbar.astro';
+import Hero from '../components/Hero.astro';
+import Services from '../components/Services.astro';
+import Portfolio from '../components/Portfolio.astro';
+import Testimonials from '../components/Testimonials.astro';
+import ContactForm from '../components/ContactForm.astro';
+import Footer from '../components/Footer.astro';
+---
+
+<BaseLayout
+  title="DeZack | Software Engineer & Freelance Web Developer"
+  description="High-speed custom websites, full-stack applications, and backend APIs for modern businesses."
+>
+  <Navbar />
+  <main>
+    <Hero />
+    <Services />
+    <Portfolio />
+    <Testimonials />
+    <ContactForm />
+  </main>
+  <Footer />
+</BaseLayout>
